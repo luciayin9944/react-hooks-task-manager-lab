@@ -30,7 +30,7 @@ export function TaskProvider({ children }) {
     };
 
     return (
-	// Provide theme state and toggle function to all components
+	// Provide addTask and toggle function to all components
 	<TaskContext.Provider value={{ tasks, addTask, toggleComplete }}>
         {children}
     </TaskContext.Provider>
